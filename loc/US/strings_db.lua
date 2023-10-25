@@ -1770,7 +1770,7 @@ Unit_Description_0171="Creates a protective Personal Shield around the SACU. Req
 Unit_Description_0172="Greatly increases Personal Shield HP. Requires energy to run.\n\n+20000 Personal Shield Health\n+80 Personal Shield Regen\n-10 Personal Shield Recharge Time"
 Unit_Description_0173="Increases main cannon range and grants Area-Of-Effect damage radius.\n\n+10 Main Weapon Range\n+3.5 Main Weapon Damage Radius"
 Unit_Description_0174="Massively increases the rate at which the SACU repairs its armour.\n\n+283 Regen"
-Unit_Description_0175="Adds Teleportation capability. Requires considerable energy to activate.\n\nTeleportation - Range: Infinite, Duration: 25 seconds"
+Unit_Description_0175="Adds Teleportation capability. Requires considerable energy to activate.\n\nTeleportation - Range: Infinite, Duration: 25"
 
 -- AEON -- Land Units
 Unit_Description_0223="Fast, lightly armoured amphibious reconnaissance vehicle. Armed with a machine gun and a basic sensor suite."
@@ -1924,7 +1924,7 @@ Unit_Description_0435="Massively increases the rate at which the SACU repairs it
 Unit_Description_0436="Greatly increases the range of the SACU's weapons and sensors.\n\n+10 Weaponry Range\n+44 Omni Radius\n+6 Vision Radius"
 Unit_Description_0437="Massively increases SACU build speed.\n\n+42 Buildpower"
 Unit_Description_0438="Creates a protective Personal Shield around the SACU. Requires energy to run.\n\nPersonal Shield - Regen Rate: 22, Recharge Time: 160"
-Unit_Description_0439="Adds Teleportation capability. Requires considerable energy to activate.\n\nTeleportation - Range: Infinite, Duration: 25 seconds"
+Unit_Description_0439="Adds Teleportation capability. Requires considerable energy to activate.\n\nTeleportation - Range: Infinite, Duration: 25"
 Unit_Description_0440="Expands the SACU's weaponry with an Overcharge function identical to that of the standard ACU. Requires 100000 energy storage for maximum damage."
 
 -- SERAPHIM -- Land Units
