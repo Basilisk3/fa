@@ -1448,7 +1448,7 @@ Unit_Description_0020="Adds a Radar Jammer which creates false radar images. Cou
 Unit_Description_0021="Increases SACU's resource generation by 10 mass per second and 1000 energy per second."
 Unit_Description_0022="Greatly expands the range of the standard on-board SACU sensor systems.\n\n+64 Omni Radius\n+15 Vision Radius"
 Unit_Description_0023="Primary weapon now fires 1.82 times as fast.\n\n+82% Rate of Fire"
-Unit_Description_0024="Equips the standard SACU Cannon with Area-Of-Effect damage and much higher range.\n\n+10 Main Cannon range\n+2 Main Cannon damage radius"
+Unit_Description_0024="Equips the standard SACU Cannon with Area-Of-Effect damage and much higher range.\n\n+10 Main Weapon range\n+2 Main Weapon damage radius"
 
 -- UEF -- Land Units
 Unit_Description_0025="Fast, lightly armoured reconnaissance vehicle. Armed with a machine gun and a basic sensor suite."
@@ -1600,8 +1600,8 @@ Unit_Description_0465_faf="Massively increases the rate at which the ACU repairs
 -- CYBRAN -- Support Commander Units/Upgrades
 Unit_Description_0115="A highly versatile combat and engineering unit useful on late-stage battlefields."
 Unit_Description_0116="Personal Cloaking further hiding the SACU from optical sensors and massively boosting HP. Countered by omni sensors. Costs a large amount of energy to run.\n\n+15000 Health"
-Unit_Description_0117="Grants the main cannon EMP capability, utterly disabling enemy units.\n\n+3 Main Cannon EMP Radius - Stun Duration: 3 seconds (Tech 3) 0.3 seconds (SACU)"
-Unit_Description_0118="Increases main cannon damage and range.\n\n+200 Main Cannon Damage\n+15 Main Cannon Range"
+Unit_Description_0117="Grants the main cannon EMP capability, utterly disabling enemy units.\n\n+3 Main Weapon EMP Radius - Stun Duration:\n3 seconds (Tech 3) 0.3 seconds (SACU)"
+Unit_Description_0118="Increases main cannon damage and range.\n\n+200 Main Weapon Damage\n+15 Main Weapon Range"
 Unit_Description_0119="Adds an anti-air SAM weapon system.\n\nNanite Missile System - DPS: 360, Range: 60"
 Unit_Description_0120="Increases SACU's resource generation by 10 mass per second and 1000 energy per second."
 Unit_Description_0121="Massively increases SACU build speed.\n\n+42 Buildpower"
@@ -1768,7 +1768,7 @@ Unit_Description_0169="Increases SACU's resource generation by 10 mass per secon
 Unit_Description_0170="Grants the Sacrifice ability, allowing the SACU to sacrifice itself to add its mass and energy to another construction project instantly at 90% efficiency."
 Unit_Description_0171="Creates a protective Personal Shield around the SACU. Requires energy to run.\n\nPersonal Shield - Regen Rate: 40, Recharge Time: 190"
 Unit_Description_0172="Greatly increases Personal Shield HP. Requires energy to run.\n\n+20000 Personal Shield Health\n+80 Personal Shield Regen\n-10 Personal Shield Recharge Time"
-Unit_Description_0173="Increases main cannon range and grants Area-Of-Effect damage radius.\n\n+10 Main Cannon Range\n+3.5 Main Cannon Damage Radius"
+Unit_Description_0173="Increases main cannon range and grants Area-Of-Effect damage radius.\n\n+10 Main Weapon Range\n+3.5 Main Weapon Damage Radius"
 Unit_Description_0174="Massively increases the rate at which the SACU repairs its armour.\n\n+283 Regen"
 Unit_Description_0175="Adds Teleportation capability. Requires considerable energy to activate.\n\nTeleportation - Range: Infinite, Duration: 25 seconds"
 
