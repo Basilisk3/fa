@@ -399,7 +399,7 @@ GetAbilityDesc = {
             if v.RemoveEnhancements or (not v.Slot) then continue end
             cnt = cnt + 1
         end
-        return LOCF('<LOC uvd_0016>', cnt)
+        return LOCF('<LOC uvd_0016>Enhancements: %d', cnt)
     end,
     ability_massive = function(bp)
         return string.format(LOC('<LOC uvd_0010>Damage: %.7g, Splash: %.3g'),
