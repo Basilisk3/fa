@@ -639,7 +639,7 @@ function WrapAndPlaceText(bp, builder, descID, control)
                             end
 
                             -- Avoid saying a unit fires a salvo when it in fact has a constant rate of fire
-                            if singleShot and ReloadTime == 0 then
+                            if singleShot and ReloadTime == 0 and CycleProjs > 1 then
                                 CycleTime = CycleTime / CycleProjs
                                 CycleProjs = 1
                             end
