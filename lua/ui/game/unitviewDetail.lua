@@ -529,7 +529,7 @@ function WrapAndPlaceText(bp, builder, descID, control)
                 for _, weapon in bp.Weapon do
                     if not weapon.WeaponCategory then continue end
                     local dest = weapons.basic
-                    if (weapon.EnabledByEnhancement) or (weapon.WeaponCategory == 'Teleport') then
+                    if weapon.EnabledByEnhancement then
                         dest = weapons.upgrades
                     end
                     if (weapon.FireOnDeath) or (weapon.WeaponCategory == 'Death') then
