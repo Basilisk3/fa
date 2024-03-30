@@ -664,9 +664,9 @@ function WrapAndPlaceText(bp, builder, descID, control)
                         table.insert(blocks, {color = UIUtil.fontColor, lines = {weaponDetails1}})
                         
                         if info.DamageType == 'Overcharge' then
-                            table.insert(blocks, {color = 'FF40BF40', lines = {weaponDetails2}})
+                            table.insert(blocks, {color = 'FF5AB34B', lines = {weaponDetails2}})
                         elseif info.Label == 'Suicide' then
-                            table.insert(blocks, {color = 'FFFF0000', lines = {weaponDetails2}})
+                            table.insert(blocks, {color = 'FFFF2C2C', lines = {weaponDetails2}})
                         else
                             table.insert(blocks, {color = 'FFFFB0B0', lines = {weaponDetails2}})
                         end
