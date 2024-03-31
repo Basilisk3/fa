@@ -647,8 +647,12 @@ function WrapAndPlaceText(bp, builder, descID, control)
                             if CycleProjs > 1 then
                                 weaponDetails2 = string.format(LOC('<LOC uvd_0015>Damage: %.8g x%d, Splash: %.3g')..', '..LOC('<LOC uvd_Range>')..', '..LOC('<LOC uvd_Reload>'),
                                     Damage, CycleProjs, info.DamageRadius, info.MinRadius, info.MaxRadius, CycleTime)
-                            -- Do not display 'Range' and Reload stats for 'Teleport in' and Kamikaze weapons
-                            elseif info.WeaponCategory == 'Teleport' or info.WeaponCategory == 'Kamikaze' then
+                            -- Do not display Reload stats for Kamikaze weapons
+                            elseif info.WeaponCategory == 'Kamikaze' then
+                                weaponDetails2 = string.format(LOC('<LOC uvd_0010>Damage: %.7g, Splash: %.3g')..', '..LOC('<LOC uvd_Range>'),
+                                Damage, info.DamageRadius, info.MinRadius, info.MaxRadius)
+                            -- Do not display 'Range' and Reload stats for 'Teleport in' weapons
+                            elseif info.WeaponCategory == 'Teleport' then
                                 weaponDetails2 = string.format(LOC('<LOC uvd_0010>Damage: %.7g, Splash: %.3g'),
                                 Damage, info.DamageRadius)
                             else
@@ -664,8 +668,8 @@ function WrapAndPlaceText(bp, builder, descID, control)
                         table.insert(blocks, {color = UIUtil.fontColor, lines = {weaponDetails1}})
                         
                         if info.DamageType == 'Overcharge' then
-                            table.insert(blocks, {color = 'FF5AB34B', lines = {weaponDetails2}})
-                        elseif info.Label == 'Suicide' then
+                            table.insert(blocks, {color = 'FF5AB34B', lines = {weaponDetails2}}) -- Same color as auto-overcharge highlight (autocast_green.dds)
+                        elseif info.WeaponCategory == 'Kamikaze' then
                             table.insert(blocks, {color = 'FFFF2C2C', lines = {weaponDetails2}})
                         else
                             table.insert(blocks, {color = 'FFFFB0B0', lines = {weaponDetails2}})
