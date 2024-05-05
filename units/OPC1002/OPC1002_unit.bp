@@ -116,7 +116,6 @@ UnitBlueprint {
         MaxSpeedReverse = 2.5,
         MaxSteerForce = 5,
         MotionType = 'RULEUMT_Land',
-        TurnRadius = 0,
         TurnRate = 27,
     },
     SelectionThickness = 0.2,

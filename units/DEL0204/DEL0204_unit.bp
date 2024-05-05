@@ -166,7 +166,6 @@ UnitBlueprint{
         MaxSteerForce = 7,
         MotionType = "RULEUMT_Land",
         StandUpright = true,
-        TurnRadius = 0,
         TurnRate = 80,
     },
     SelectionCenterOffsetX = 0,

@@ -137,7 +137,6 @@ UnitBlueprint{
         MeshExtentsZ = 1.35,
         MotionType = "RULEUMT_Land",
         RotateOnSpot = false,
-        TurnRadius = 0,
         TurnRate = 90,
     },
     SelectionSizeX = 0.45,

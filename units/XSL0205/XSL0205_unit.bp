@@ -182,7 +182,6 @@ UnitBlueprint{
         RotateBodyWhileMoving = true,
         RotateOnSpot = false,
         TurnFacingRate = 180,
-        TurnRadius = 0,
         TurnRate = 120,
         WaterSpeedMultiplier = 1.4,
         WobbleFactor = 0,

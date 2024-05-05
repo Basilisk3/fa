@@ -195,7 +195,6 @@ UnitBlueprint{
         MeshExtentsY = 1.2,
         MeshExtentsZ = 0.75,
         MotionType = "RULEUMT_AmphibiousFloating",
-        TurnRadius = 0,
         TurnRate = 150,
     },
     SelectionCenterOffsetX = 0,

@@ -318,7 +318,6 @@ UnitBlueprint{
         SkirtOffsetZ = -1.5,
         SkirtSizeX = 9,
         SkirtSizeZ = 9,
-        TurnRadius = 0,
         TurnRate = 30,
     },
     SelectionCenterOffsetX = 0,

@@ -141,7 +141,6 @@ UnitBlueprint{
         MotionType = "RULEUMT_Amphibious",
         RotateOnSpot = false,
         RotateOnSpotThreshold = 0.1,
-        TurnRadius = 0,
         TurnRate = 90,
         WaterSpeedMultiplier = 0.9,
     },
